@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="TR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kaydol formu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kayıt">
+        <form  action="index.html">
+            <h1>KAYIT OL</h1>
+            <input type="text" placeholder="İSİM" class="txt" pattern="[A-Za-zıİüÜöÖçÇşŞğĞ]+" required>
+            <input type="text" placeholder="SOYİSİM" class="txt" pattern="[A-Za-zıİüÜöÖçÇşŞğĞ]+" required>
+            <input type="password" placeholder="ŞİFRE" class="txt" required >
+            <input type="date" class="txt" required>
+            <input type="tel" pattern="[0-9]*" placeholder="5__-___-__-__" class="txt" required>
+            <input type="email" placeholder="E-MAIL" class="txt" required>
+             <label for="cnsyt" class="txt">Cinsiyetinizi Seçin</label >
+            <select>
+            <option disabled="disabled" selected="selected">SEÇİNİZ</option>
+            <option>KADIN</option>
+            <option>ERKEK</option>
+
+            </select>
+            <textarea  cols="30" rows="3" placeholder="ADRES" class="txt"></textarea>
+            <input type="submit" value="KAYIT OLUŞTUR" class="kayıt_btn">
+        >
+        
+        </form>
+    </div>
+    
+</body>
+</html>
